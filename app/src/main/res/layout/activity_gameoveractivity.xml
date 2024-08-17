@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".gameoveractivity">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="Game Over!"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:textColor="#00008b">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/play_again_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameover"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:background="@drawable/round_back_blue"
+        android:text="Play Again"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/main_back_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_again_btn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_back_blue"
+        android:padding="10dp"
+        android:text="back to home"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="252dp"
+        android:gravity="center"
+        android:text="SCORE : "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

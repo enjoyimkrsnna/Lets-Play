@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LetsPlay" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="mytoast">
+        <item name="stColorBackground">#00008b</item>
+        <item name="stTextColor">#ffffff</item>
+        <!--        <item name="stTextSize">14sp</item>-->
+        <item name="stIconStart">@drawable/baseline_stars</item>
+        <item name="stIconEnd">@drawable/baseline_stars</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="strokeWidth">5dp</item>
+        <item name="stLength">LONG</item>
+        <!--        <item name="stGravity">center</item> top or center-->
+        <item name="stRadius">5dp</item>
+    </style>
+</resources>
